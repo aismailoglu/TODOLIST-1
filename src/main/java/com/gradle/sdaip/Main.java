@@ -1,3 +1,4 @@
+package com.gradle.sdaip;
 
 import java.util.Scanner;
 
