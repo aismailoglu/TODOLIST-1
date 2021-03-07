@@ -14,7 +14,7 @@ The application can be started with Gradle's run command, as shown below.
 gradle run --console plain
 .....
 
-##Basic features
+## Basic features
 * Models task with the following details,
   - task title
   - due date todo the task
