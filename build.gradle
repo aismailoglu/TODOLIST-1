@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.sdaip'
@@ -10,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'junit:junit:4.12'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
@@ -19,9 +21,8 @@ test {
 }
 
 application {
-    mainClassName = 'com.gradle.sdaip.Main'
+   mainClassName = 'com.gradle.sdaip.Main'
 }
-
 
 
 jar {
